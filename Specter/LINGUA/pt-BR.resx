@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmlogin_Conectado" xml:space="preserve">
+    <value>Conectado.</value>
+  </data>
+  <data name="pesquisa_Poke_naoEncontrado" xml:space="preserve">
+    <value>Não encontramos coordenada deste Pokémon no momento. Tente mais tarde.</value>
+  </data>
+  <data name="pesquisa_Poke_nomeIncorreto" xml:space="preserve">
+    <value>Você digitou o nome do Pokémon incorretamente!</value>
+  </data>
+  <data name="pesquisa_Server_semData" xml:space="preserve">
+    <value>O Servidor não retornou nenhum dado de Pokémon. Tente novamente.</value>
+  </data>
+  <data name="frmlogin_Versao_dezatualizada" xml:space="preserve">
+    <value>Desatualzada.</value>
+  </data>
+  <data name="capturador_backingOriginalLoc" xml:space="preserve">
+    <value>Voltando para a sua localização original:</value>
+  </data>
+  <data name="capturador_cannot_ProcessCaptura" xml:space="preserve">
+    <value>Não conseguimos iniciar o processo de captura</value>
+  </data>
+  <data name="capturador_catchflee_pt1" xml:space="preserve">
+    <value>Ohhh não! O Pokémon</value>
+  </data>
+  <data name="capturador_catchfle_pt2" xml:space="preserve">
+    <value>fugiu! ):</value>
+  </data>
+  <data name="capturador_catchSucess" xml:space="preserve">
+    <value>foi capturado com sucesso!</value>
+  </data>
+  <data name="capturador_conectarPokemonRaro" xml:space="preserve">
+    <value>NÃO POSSÍVEL CONECTAR COM A DATABASE DO POKEMON RARO. FINALIZANDO APLICAÇÃO</value>
+  </data>
+  <data name="capturador_erroDEsconhecido" xml:space="preserve">
+    <value>Erro: Erro desconhecido ao tentar capturar o Pokémon.</value>
+  </data>
+  <data name="capturador_foundPokemon" xml:space="preserve">
+    <value>Encontramos o Pokémon</value>
+  </data>
+  <data name="capturador_genetica" xml:space="preserve">
+    <value>IV(Genética):</value>
+  </data>
+  <data name="capturador_habilidades" xml:space="preserve">
+    <value>Habilidades:</value>
+  </data>
+  <data name="capturador_lancandoBall" xml:space="preserve">
+    <value>Jogando</value>
+  </data>
+  <data name="capturador_lostPokemon" xml:space="preserve">
+    <value>Perdemos o Pokémon!):</value>
+  </data>
+  <data name="capturador_mapObjects" xml:space="preserve">
+    <value>Objetos do mapa: </value>
+  </data>
+  <data name="capturador_missed" xml:space="preserve">
+    <value>escapou de nossa</value>
+  </data>
+  <data name="capturador_NotFoundCorrectCoords" xml:space="preserve">
+    <value>Não encontramos nada, as coordenadas estão corretas?</value>
+  </data>
+  <data name="capturador_not_found_here_pt1" xml:space="preserve">
+    <value>Não encontramos o Pokémon</value>
+  </data>
+  <data name="capturador_not_found_here_pt2" xml:space="preserve">
+    <value> aqui. Talvez ele já tenha sido capturado, ou ele sumiu.</value>
+  </data>
+  <data name="capturador_pokemonRegiao" xml:space="preserve">
+    <value>Pokémons diposniveis nesta regiao:</value>
+  </data>
+  <data name="capturador_procurandoPokemonTentativa" xml:space="preserve">
+    <value>Procurando Pokémon... tentativa</value>
+  </data>
+  <data name="capturador_startingCatching" xml:space="preserve">
+    <value>iniciando processo de captura do:</value>
+  </data>
+  <data name="capturador_tentivaThrow" xml:space="preserve">
+    <value>Tentativa</value>
+  </data>
+  <data name="capturador_weFoundNothing" xml:space="preserve">
+    <value>Não encontramos nada, desculpe. Tente outro Pokémon!</value>
+  </data>
+  <data name="capturador_weNotfound_Pokemon" xml:space="preserve">
+    <value>Pokémon não foi encontrado aos redores, tente procurar outro Pokemon.</value>
+  </data>
+  <data name="configuracoes_erroLoadMochila" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar coletar os dados de sua mochila</value>
+  </data>
+  <data name="configuracoes_FullBag" xml:space="preserve">
+    <value>Sua mochila de Pokémons esta CHEIA.</value>
+  </data>
+  <data name="configuracoes_noBall" xml:space="preserve">
+    <value>Você não tem pokebolas o suficiente.</value>
+  </data>
+  <data name="configuracoes_NoBall_Fullbag" xml:space="preserve">
+    <value>Você não tem POKEBOLAS e sua mochila de Pokémons esta CHEIA.</value>
+  </data>
+  <data name="frmlogin_chaveExpirada" xml:space="preserve">
+    <value>Sua chave expirou [Total:</value>
+  </data>
+  <data name="frmlogin_Lingua" xml:space="preserve">
+    <value>LINGUA:</value>
+  </data>
+  <data name="loggin_error" xml:space="preserve">
+    <value>[ERRO]:</value>
+  </data>
+  <data name="loggin_info" xml:space="preserve">
+    <value>[INFO]:</value>
+  </data>
+  <data name="loggin_pokeraro" xml:space="preserve">
+    <value>[POKÉMON-RARO]:</value>
+  </data>
+  <data name="loggin_sucess" xml:space="preserve">
+    <value>[SUCESSO]:</value>
+  </data>
+  <data name="loggin_warning" xml:space="preserve">
+    <value>[AVISO]:</value>
+  </data>
+  <data name="manual_campoBranco_pt1" xml:space="preserve">
+    <value>Você deixou um outro campo em branco.</value>
+  </data>
+  <data name="manual_campoBranco_pt2" xml:space="preserve">
+    <value>ERRO</value>
+  </data>
+  <data name="pesquisa_Poke_0PokemonEncontrado" xml:space="preserve">
+    <value>Encontramos 0 Pokémons.</value>
+  </data>
+  <data name="pesquisa_Poke_naoPossivelEncontrar" xml:space="preserve">
+    <value>Não foi possível obter as coordenadas dos Pokémons.</value>
+  </data>
+  <data name="frmlogin_chave_disabled_pt1" xml:space="preserve">
+    <value>Seu código foi desativado pelo Pokémon Raro.!\nCaso você acha que isso tenha sido um erro entre em contato.</value>
+  </data>
+  <data name="frmlogin_chave_disabled_pt2" xml:space="preserve">
+    <value>CODIGO DESATIVADO</value>
+  </data>
+  <data name="frmlogin_chave_expirada_pt1" xml:space="preserve">
+    <value>Sua chave expirou!\nCompre uma nova chave para continuar utilizando.</value>
+  </data>
+  <data name="frmlogin_chave_expirada_pt2" xml:space="preserve">
+    <value>CHAVE EXPIRADA</value>
+  </data>
+  <data name="frmlogin_chave_wrong_pt1" xml:space="preserve">
+    <value>A chave que você informou parece estar incorreta.\nVerifique e tente novamente.</value>
+  </data>
+  <data name="frmlogin_chave_wrong_pt2" xml:space="preserve">
+    <value>CHAVE DE ACESSO INCORRETA</value>
+  </data>
+  <data name="price_siteFindLocation" xml:space="preserve">
+    <value>Entre no site e descubra as coordenadas de onde você vive.</value>
+  </data>
+  <data name="prince_Deslogar" xml:space="preserve">
+    <value>DESLOGAR</value>
+  </data>
+  <data name="prince_findLocation" xml:space="preserve">
+    <value>DESCUBRA SUA LOCALIZAÇÃO</value>
+  </data>
+  <data name="prince_GoogleTrainer" xml:space="preserve">
+    <value>Contas que utilizam o Google para realizar o login.</value>
+  </data>
+  <data name="prince_inDev" xml:space="preserve">
+    <value>Atualmente em desenvolvimento.</value>
+  </data>
+  <data name="prince_Login" xml:space="preserve">
+    <value>LOGAR</value>
+  </data>
+  <data name="prince_logs" xml:space="preserve">
+    <value>ATIVIDADES</value>
+  </data>
+  <data name="prince_nomePoke" xml:space="preserve">
+    <value>Nome do Pokemon</value>
+  </data>
+  <data name="prince_nomeUser" xml:space="preserve">
+    <value>Nome de Usuario para contas PTC &amp; E-mail para contas Google.</value>
+  </data>
+  <data name="prince_Poketrainer" xml:space="preserve">
+    <value>Contas que utilizam o Pokémon Trainer Clube para realizar o login.</value>
+  </data>
+  <data name="prince_senhaApp" xml:space="preserve">
+    <value>Senha para Pokémon Trainer Clube &amp; Senha de APP para contas Google.</value>
+  </data>
+  <data name="prince_versao" xml:space="preserve">
+    <value>VERSÃO:</value>
+  </data>
+  <data name="principal_catching" xml:space="preserve">
+    <value>Capturando o</value>
+  </data>
+  <data name="principal_catchingPokemonWait" xml:space="preserve">
+    <value>Capturando Pokémon, aguarde.</value>
+  </data>
+  <data name="principal_catchToolStrp_Enabled" xml:space="preserve">
+    <value>CAPTURAR</value>
+  </data>
+  <data name="principal_catchToolStrp_Manual_Enabled" xml:space="preserve">
+    <value>CAPTURAR MANUAL</value>
+  </data>
+  <data name="principal_dadosCharSucess" xml:space="preserve">
+    <value>Dados do personagem carregados com sucesso!</value>
+  </data>
+  <data name="principal_doLogin_Before_Catch" xml:space="preserve">
+    <value>Realize o login antes de iniciar a captura.</value>
+  </data>
+  <data name="principal_esqueceu_campo_brancoLogin" xml:space="preserve">
+    <value>LOGIN: você deixou algum campo na area de login em branco.</value>
+  </data>
+  <data name="principal_esqueceu_tipoConta_Login" xml:space="preserve">
+    <value>LOGIN: Você esqueceu de selecionar o tipo de sua conta. PTC ou Google?</value>
+  </data>
+  <data name="principal_LogadoSucesso" xml:space="preserve">
+    <value>Logado com sucesso!</value>
+  </data>
+  <data name="principal_logOff" xml:space="preserve">
+    <value>Deslogando...</value>
+  </data>
+  <data name="principal_logOffSucess" xml:space="preserve">
+    <value>Deslogado com sucesso!</value>
+  </data>
+  <data name="principal_onCoordinates" xml:space="preserve">
+    <value>nas coordenadas</value>
+  </data>
+  <data name="principal_procurando" xml:space="preserve">
+    <value>PROCURANDO...</value>
+  </data>
+  <data name="principal_procurar" xml:space="preserve">
+    <value>PROCURAR</value>
+  </data>
+  <data name="principal_versaoMinima_pt1" xml:space="preserve">
+    <value>A versão minima do jogo se atualizou para</value>
+  </data>
+  <data name="principal_versaoMinima_pt2" xml:space="preserve">
+    <value>Isso significa que no momento não é seguro utilizar o Specter. Aguarde a equipe do PokémonRaro atualizar para a nova versão.</value>
+  </data>
+  <data name="principal_versaoMinima_pt3" xml:space="preserve">
+    <value>Versão minima insuficiente</value>
+  </data>
+  <data name="princ_appPass" xml:space="preserve">
+    <value>COMO GERAR SENHA DE APP</value>
+  </data>
+  <data name="princ_ballOrder" xml:space="preserve">
+    <value>ORDEM POKEBOLA</value>
+  </data>
+  <data name="princ_balls" xml:space="preserve">
+    <value>POKEBOLAS:</value>
+  </data>
+  <data name="princ_CatchManual" xml:space="preserve">
+    <value>CAPTURA MANUAL</value>
+  </data>
+  <data name="princ_catchRazz" xml:space="preserve">
+    <value>CAPTURAR [Razzberry]</value>
+  </data>
+  <data name="princ_catchRazzPinap" xml:space="preserve">
+    <value>CAPTURAR [RazzBerry+PinapBerry]</value>
+  </data>
+  <data name="princ_character" xml:space="preserve">
+    <value>PERSONAGEM</value>
+  </data>
+  <data name="princ_chave" xml:space="preserve">
+    <value>COMPRAR CHAVE</value>
+  </data>
+  <data name="princ_complete" xml:space="preserve">
+    <value>Completar Pokedex</value>
+  </data>
+  <data name="princ_Coords" xml:space="preserve">
+    <value>Informe as coordenadas do Pokemon</value>
+  </data>
+  <data name="princ_CopyCoords" xml:space="preserve">
+    <value>COPIAR COORDENADAS</value>
+  </data>
+  <data name="princ_dadosLogin" xml:space="preserve">
+    <value>Dados de login</value>
+  </data>
+  <data name="princ_disabledNow" xml:space="preserve">
+    <value>Desativado no momento. Em desenvolvimento.</value>
+  </data>
+  <data name="princ_disabledNow2" xml:space="preserve">
+    <value>Desativado no momento. Em desenvolvimento.</value>
+  </data>
+  <data name="princ_ErrorBug" xml:space="preserve">
+    <value>ERROS, BUGS, SOLUÇÕES</value>
+  </data>
+  <data name="princ_genetica" xml:space="preserve">
+    <value>IV (Genética)</value>
+  </data>
+  <data name="princ_listTip" xml:space="preserve">
+    <value>Como a lista dos Pokémons será mostrada.</value>
+  </data>
+  <data name="princ_location" xml:space="preserve">
+    <value>Sua localização</value>
+  </data>
+  <data name="princ_name" xml:space="preserve">
+    <value>NOME</value>
+  </data>
+  <data name="princ_NamePoke" xml:space="preserve">
+    <value>NOME DOS POKÉMONS DISPONÍVEIS</value>
+  </data>
+  <data name="princ_numeroPokedex" xml:space="preserve">
+    <value>Numero Pokedex</value>
+  </data>
+  <data name="princ_oficialpage" xml:space="preserve">
+    <value>PAGINA OFICIAL</value>
+  </data>
+  <data name="princ_onDev" xml:space="preserve">
+    <value>Atualmente em desenvolvimento.</value>
+  </data>
+  <data name="princ_ordemList" xml:space="preserve">
+    <value>ORDEM LISTA:</value>
+  </data>
+  <data name="princ_PokemonName" xml:space="preserve">
+    <value>Digite o nome sem espaços, virulas ou acentos.</value>
+  </data>
+  <data name="princ_Procurar" xml:space="preserve">
+    <value>PROCURAR</value>
+  </data>
+  <data name="princ_reload" xml:space="preserve">
+    <value>Recarregar Pokemons</value>
+  </data>
+  <data name="princ_RemovedorSoft" xml:space="preserve">
+    <value>REMOVEDOR SOFTBAN</value>
+  </data>
+  <data name="princ_senhaApp" xml:space="preserve">
+    <value>SENHA/S. APP</value>
+  </data>
+  <data name="princ_start" xml:space="preserve">
+    <value>Iniciar captura</value>
+  </data>
+  <data name="princ_team" xml:space="preserve">
+    <value>TIME</value>
+  </data>
+  <data name="princ_timeLeft" xml:space="preserve">
+    <value>Tempo Restante</value>
+  </data>
+  <data name="princ_tipIV" xml:space="preserve">
+    <value>OPÇÃO PAGA.</value>
+  </data>
+  <data name="princ_TipName" xml:space="preserve">
+    <value>Digite o nome sem espaços, virulas ou acentos.</value>
+  </data>
+  <data name="princ_TipSenha" xml:space="preserve">
+    <value>Senha para Pokémon Trainer Clube &amp; Senha de APP para contas Google.</value>
+  </data>
+  <data name="princ_TipUserEmail" xml:space="preserve">
+    <value>Nome de Usuario para contas PTC &amp; E-mail para contas Google.</value>
+  </data>
+  <data name="princ_totalCatch" xml:space="preserve">
+    <value>T.CAPTURADO:</value>
+  </data>
+  <data name="princ_totalEscaped" xml:space="preserve">
+    <value>T.ESCAPADO:</value>
+  </data>
+  <data name="princ_typeConta" xml:space="preserve">
+    <value>Tipo de Conta</value>
+  </data>
+  <data name="princ_userEmail" xml:space="preserve">
+    <value>USUARIO/E-MAIL</value>
+  </data>
+  <data name="frmlogin_Sair" xml:space="preserve">
+    <value>SAIR</value>
+  </data>
+  <data name="frmlogin_Versao" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="frmlogin_versao_Desatualizada_pt1" xml:space="preserve">
+    <value>Esta versão do Specter se encontra desatualizada.\nFaça download da nova versão para continuar utilizando.</value>
+  </data>
+  <data name="frmlogin_versao_Desatualizada_pt2" xml:space="preserve">
+    <value>VERSÃO DESATUALIZADA</value>
+  </data>
+  <data name="manual_catch" xml:space="preserve">
+    <value>CAPTURA</value>
+  </data>
+  <data name="manual_catcher" xml:space="preserve">
+    <value>CAPTURAR</value>
+  </data>
+  <data name="manual_catchManual" xml:space="preserve">
+    <value>CAPTURA MANUAL</value>
+  </data>
+  <data name="manual_close" xml:space="preserve">
+    <value>FECHAR</value>
+  </data>
+  <data name="manual_errorFomatoString" xml:space="preserve">
+    <value>Existe algum erro no formato do texto da captura. </value>
+  </data>
+  <data name="manual_example" xml:space="preserve">
+    <value>Exemplo: Dragonite,34.43434,-66.343443</value>
+  </data>
+  <data name="manual_format" xml:space="preserve">
+    <value>Formato: NomeDoPokemon, Latitude, Longitude</value>
+  </data>
+  <data name="frmlogin_estadoServidor" xml:space="preserve">
+    <value>Estado Servidor:</value>
+  </data>
+</root>

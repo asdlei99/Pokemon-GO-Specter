@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 2190420,
+    "Username": "lguilhermee",
+    "Name": "Lucas Guilherme",
+    "Email": "lucas_guilhermee@hotmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/c4da59d5b6c40352695b6c9445dd1132?s=80&d=identicon",
+    "PrivateToken": "zWomWZ7vJ5sbgVrnN78y",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 1
+  }
+}
