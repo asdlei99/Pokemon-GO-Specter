@@ -7,6 +7,7 @@
 
 [![Github All Releases](https://img.shields.io/github/downloads/lguilhermee/Pokemon-GO-Specter/total.svg)](https://github.com/lguilhermee/Pokemon-GO-Specter) [![license](https://img.shields.io/github/license/lguilhermee/Pokemon-GO-Specter.svg)](https://github.com/lguilhermee/Pokemon-GO-Specter) [![GitHub language count](https://img.shields.io/github/languages/count/lguilhermee/Pokemon-GO-Specter.svg)](https://github.com/lguilhermee/Pokemon-GO-Specter) [![GitHub stars](https://img.shields.io/github/stars/lguilhermee/Pokemon-GO-Specter.svg?style=social&label=Stars)](https://github.com/lguilhermee/Pokemon-GO-Specter) [![GitHub followers](https://img.shields.io/github/followers/lguilhermee.svg?style=social&label=Follow)](https://github.com/lguilhermee/Pokemon-GO-Specter)
 
+### ESTE PROJETO NÃO É MAIS MANTIDO.
 
 
 ### `IMAGENS`
@@ -16,7 +17,7 @@
 
 ### `FUNÇÕES`
 
-FUNÇÃO  | DESCRIÇÕES
+FUNÇÃO  | DESCRIÇÃO
 ------------- | -------------
 Suporte Logins  | Realiza logins em contas PTC e Google.
 Informações personagem  | Informa alguns dados importantes do treinador Nome, time, pokebolas e pokémons
